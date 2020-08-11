@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra năm nhuận</title>
+</head>
+<body>
+<script>
+    let year = parseInt(prompt("nhap so nam"));
+    if (year % 4 ==0) {
+        if (year % 100 ==0) {
+            if (year % 400 ==0) {
+               alert(year + "is a leep yeara");
+            }
+            else {
+                alert(year + "is NOT a leep year");
+            }
+            }else {
+            alert(year + 'is a leep year');
+            }
+        } else {
+        alert(year + "is NOT a leep year");
+    }
+</script>
+</body>
+</html>
